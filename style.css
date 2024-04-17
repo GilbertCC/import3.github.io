@@ -194,7 +194,7 @@ nav a{
 }
 
 
-@media(max-width: 800px){
+@media(max-width: 760px){
     .hideOnMobile{
         display: none;
     }
