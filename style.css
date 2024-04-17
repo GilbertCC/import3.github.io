@@ -70,7 +70,7 @@ nav a{
     width: 250px;
     z-index: 999;
     display: none;
-    background-color:rgba(242, 227, 155, 0.297);
+    background-color:rgba(242, 227, 155, 0.708);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0,0,0,0.1);
     flex-direction: column;
