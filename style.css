@@ -205,6 +205,11 @@ nav a{
         height: 160px;
         width: 105px;
     }
+    .wrapper {
+      height: auto; /* Cambia la altura a automática en pantallas pequeñas para adaptarse mejor */
+      padding: 20px; /* Añade espacio entre los elementos y los bordes del contenedor */
+      box-sizing: border-box; /* Incluye el padding en el ancho del contenedor */
+    }
 }
 
 @media(max-width: 400px){
@@ -249,8 +254,8 @@ nav a{
   }
 }
 .wrapper {
-  width: 80%;
-  height: 100vh;
+  width: 100%;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
