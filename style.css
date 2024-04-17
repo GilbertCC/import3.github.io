@@ -273,6 +273,7 @@ nav a{
   align-items: flex-end;
   box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
   transition: 0.5s ease-in-out;
+ 
 
 }
 .card:hover{
@@ -320,4 +321,29 @@ nav a{
 .tittle{
   text-align: center;
   font-family: "Poppins", sans-serif;
+}
+.wrapper2{
+  display: flexbox;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.cardprod Img{
+  
+  height: 300px;
+  width: 200px;
+  display: block;
+}
+.item-img{
+  justify-self: center;
+}
+.cardprod{
+  background-color: #B1BF4A;
+  padding: 2rem;
+  margin: 1rem;
+  max-width: 400px;
+  border-radius: .75rem;
+  display: flex;
+  justify-content: center;
+
 }
