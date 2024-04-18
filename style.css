@@ -348,7 +348,9 @@ nav a{
 
 } */
 .cards{ 
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   gap: 30px;  
   max-width: 1200px;
   margin-left: auto;
@@ -412,6 +414,17 @@ nav a{
   opacity: 1;
 }
 .img-holder{
-  display: flex;
-  justify-content: center;
+  display:flex;
+  flex-direction: row;
+}
+.img-holder img{
+  height: 100%;
+  width: 1000%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .card-s {
+    width: 90%; /* Cambia el ancho según tus necesidades para dispositivos más pequeños */
+  }
 }
