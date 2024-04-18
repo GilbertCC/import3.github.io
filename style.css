@@ -350,7 +350,7 @@ nav a{
 .cards{ 
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 30px;  
   max-width: 1200px;
   margin-left: auto;
@@ -424,7 +424,8 @@ nav a{
 }
 
 @media (max-width: 768px) {
-  .card-s {
+  .cards {
+    flex-wrap: wrap;
     width: 90%; /* Cambia el ancho según tus necesidades para dispositivos más pequeños */
   }
 }
