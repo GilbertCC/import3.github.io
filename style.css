@@ -408,6 +408,7 @@ nav a{
 .card-s:hover .card-content{
   height: 230px;
   overflow: visible;
+  align-items: center;
 }
 
 .card-s:hover p{
@@ -429,3 +430,147 @@ nav a{
     width: 90%; /* Cambia el ancho según tus necesidades para dispositivos más pequeños */
   }
 }
+
+
+footer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: rgb(86,89,2);
+}
+footer ul {
+  list-style: none;
+}
+footer p {
+  color: #fff;
+  max-width: 25em;
+  font-size: 0.9em;
+  line-height: 23px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+.brand {
+  display: block;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.media-icons li,
+.services-icons li {
+  display: inline-block;
+  margin: 0.5em 0.5em 0.5em 0;
+}
+.media-icons a {
+  font-size: 1.1em;
+  width: 2em;
+  height: 2em;
+  border: 1px #fff solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.media-icons a:hover {
+  background: #fff;
+  color: #111;
+}
+.services-icons a {
+  font-size: 1.6em;
+}
+.services-icons a:hover {
+  color: #94fbab;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(138, 208, 153, 0.36);
+  padding: 2em;
+}
+.footer .menu {
+  margin-bottom: 1em;
+}
+.footer .menu li {
+  display: inline-block;
+  margin: 0 0.7em 0.7em 0;
+  text-align: center;
+}
+.footer .menu a {
+  transition: 0.3s;
+  font-weight: 600;
+}
+.footer .menu a:hover {
+  color: #94fbab;
+}
+.input-wrap {
+  margin: 1em 0;
+  display: flex;
+}
+.input-wrap input {
+  padding: 0.5em;
+  border: none;
+  background: #20232a;
+  color: #ccc;
+}
+.input-wrap input:focus {
+  outline: none;
+}
+.input-wrap button {
+  padding: 0.8em;
+  background: #94fbab;
+  border: none;
+  color: #217634;
+  transition: 0.3s;
+}
+.input-wrap button:hover {
+  background: #fff;
+  color: #111;
+}
+/* == responsive == */
+@media screen and (max-width: 900px) {
+  .footer .container {
+    flex-direction: column;
+  }
+}
+    /* Estilos para el botón de WhatsApp */
+    .whatsapp-button {
+      display: inline-block;
+      padding: 10px 20px; /* Ajusta el espacio alrededor del botón según sea necesario */
+      background-color: #25d366; /* Color de fondo del botón */
+      color: #fff; /* Color del texto del botón */
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px; /* Borde redondeado */
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  .whatsapp-button:hover {
+      background-color: #128c7e; /* Cambio de color al pasar el cursor sobre el botón */
+  }
+
+  /* Estilos para el ícono de WhatsApp dentro del botón */
+  .whatsapp-icon {
+      display: inline-block;
+      width: 20px; /* Ajusta el tamaño del ícono según sea necesario */
+      height: 20px;
+      background: url('ruta/a/tu/imagen-de-whatsapp-icono.png') no-repeat center center; /* Reemplaza 'ruta/a/tu/imagen-de-whatsapp-icono.png' con la ruta de tu imagen */
+      background-size: cover;
+      margin-right: 10px; /* Espaciado a la derecha del ícono */
+      vertical-align: middle; /* Alinea verticalmente con el texto del botón */
+  }
